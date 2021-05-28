@@ -1,2 +1,2 @@
 [functions]
-  include_files=["public/locales/**/*"]
+  included_files = ["files/*.md"]
