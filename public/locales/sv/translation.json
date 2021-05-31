@@ -1,0 +1,83 @@
+{
+  "components": {
+    "country-dropdown": {
+      "please-select": "Välj ett land"
+    },
+    "number-input": {
+      "decrease-button": "Minska värdet med 1",
+      "increase-button": "Öka värdet med 1"
+    },
+    "order-preview": {
+      "amount-to-pay": "Summa att betala",
+      "delivery-times": "<p>Leveranstid inom Sverige: 5-7 arbetsdagar</p><p>Övriga världen: upp till 14 arbetsdagar</p>",
+      "empty-cart-notice": "Du har inga produkter i varukorgen",
+      "freight-heading": "Frakt",
+      "go-to-store-button": "Till butiken",
+      "products-heading": "Produkter",
+      "vat": "Varav moms: {{vat}}"
+    },
+    "preview-product": {
+      "amount-label": "Antal",
+      "price-accessible-label": "Pris",
+      "regular-price-accessible-label": "Ordinarie pris",
+      "remove-button-accessible-label": "Ta bort ur varukorgen"
+    }
+  },
+  "customer-details": {
+    "address-heading": "Adress",
+    "address-label": "Adress",
+    "address-missing": "Du måste ange en adress",
+    "city-label": "Ort",
+    "city-missing": "Du måste ange en ort",
+    "company-label": "Företagsnamn",
+    "company-name-missing": "Du måste ange ett företagsnamn",
+    "country-label": "Land",
+    "country-missing": "Du måste ange ett land",
+    "delivery-email-invalid": "Du måste ange en giltig e-postadress",
+    "delivery-email-missing": "Du måste ange en e-postadress",
+    "delivery-phone-number-missing": "Du måste ange ett telefonnummer",
+    "email-label": "E-postadress",
+    "first-name-label": "Förnamn",
+    "first-name-missing": "Du måste ange ett förnamn",
+    "in-eu-but-missing-vat-number": "Momsregistreringsnummer är obligatoriskt för företag inom EU",
+    "last-name-label": "Efternamn",
+    "last-name-missing": "Du måste ange ett efternamn",
+    "organization-number-help-text": "I formatet: NNNNNN-NNNN",
+    "organization-number-label": "Organisationsnummer",
+    "phone-label": "Telefonnummer",
+    "reference-help-text": "En referens kan bestå av PO-nummer (Purchase Order Number), kostnadsställe, kontaktperson, institution, avdelningsnummer etc. Max 50 tecken långt.",
+    "reference-label": "Er referens",
+    "reference-missing": "Du måste ange en referens",
+    "reference-too-long": "Du kan ange som mest 50 tecken",
+    "submit-button-text": "Slutför köp",
+    "terms-label": "Jag godkänner <1 href={termsLink}>villkoren för tjänsten</1>",
+    "terms-not-accepted": "Du måste godkänna villkoren",
+    "type-legend": "Jag är…",
+    "type": {
+      "company": "Företag",
+      "person": "Privatperson"
+    },
+    "vat-registration-number-help-text": "Obligatoriskt för företag inom EU förutom Sverige",
+    "vat-registration-number-label": "Momsregistreringsnummer",
+    "zip-label": "Postnummer",
+    "zip-missing": "Du måste ange ett postnummer"
+  },
+  "db-translation": {
+    "manifestation-format": {
+      "audio": "Ljud",
+      "epub": "E-pub",
+      "hardcover": "Hårdband",
+      "paperback": "Pocket",
+      "softcover": "Mjukband"
+    },
+    "manifestation-status": {
+      "draft": "Utkast",
+      "published": "Publicerad"
+    },
+    "manifestation-type": {
+      "audiobook": "Ljudbok",
+      "ebook": "E-bok",
+      "pod": "Bok"
+    }
+  }
+}

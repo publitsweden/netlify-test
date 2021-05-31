@@ -1,0 +1,83 @@
+{
+  "components": {
+    "country-dropdown": {
+      "please-select": "Please select a country"
+    },
+    "number-input": {
+      "decrease-button": "Decrease value by 1",
+      "increase-button": "Increase value by 1"
+    },
+    "order-preview": {
+      "amount-to-pay": "Amount to pay",
+      "delivery-times": "<p>Delivery time within Sweden: 5-7 working days</p><p>Rest of the world: up to 14 working days</p>",
+      "empty-cart-notice": "Your cart is empty",
+      "freight-heading": "Freight",
+      "go-to-store-button": "To the store",
+      "products-heading": "Products",
+      "vat": "VAT: {{vat}}"
+    },
+    "preview-product": {
+      "amount-label": "Amount",
+      "price-accessible-label": "Price",
+      "regular-price-accessible-label": "Regular price",
+      "remove-button-accessible-label": "Remove product from cart"
+    }
+  },
+  "customer-details": {
+    "address-heading": "Address",
+    "address-label": "Address",
+    "address-missing": "Please enter an address",
+    "city-label": "City",
+    "city-missing": "Please enter a city",
+    "company-label": "Company name",
+    "company-name-missing": "Please enter a company name",
+    "country-label": "Country",
+    "country-missing": "Please select a country",
+    "delivery-email-invalid": "Please enter a valid email address",
+    "delivery-email-missing": "Please enter an email address",
+    "delivery-phone-number-missing": "Please enter a phone number",
+    "email-label": "E-mail",
+    "first-name-label": "First name",
+    "first-name-missing": "Please enter a first name",
+    "in-eu-but-missing-vat-number": "A VAT registration number is required for companies within the EU",
+    "last-name-label": "Last name",
+    "last-name-missing": "Please enter a last name",
+    "organization-number-help-text": "Formatted like: NNNNNN-NNNN",
+    "organization-number-label": "Organization number",
+    "phone-label": "Phone number",
+    "reference-help-text": "A reference can consist of PO number  (Purchase Order Number), cost center, expenditure center, contact person, department, division number, etc. Maximum 50 characters.",
+    "reference-label": "Your reference",
+    "reference-missing": "Please enter a reference",
+    "reference-too-long": "Please enter no more than 50 characters",
+    "submit-button-text": "Complete purchase",
+    "terms-label": "I agree to the <1 href={termsLink}>terms of service</1>",
+    "terms-not-accepted": "You must agree to the terms",
+    "type-legend": "I am…",
+    "type": {
+      "company": "Company",
+      "person": "Person"
+    },
+    "vat-registration-number-help-text": "Mandatory for companies within the EU except Sweden",
+    "vat-registration-number-label": "VAT registration number",
+    "zip-label": "Zip code",
+    "zip-missing": "Please enter a zip code"
+  },
+  "db-translation": {
+    "manifestation-format": {
+      "audio": "Audio",
+      "epub": "Epub",
+      "hardcover": "Hardcover",
+      "paperback": "Paperback",
+      "softcover": "Softcover"
+    },
+    "manifestation-status": {
+      "draft": "Draft",
+      "published": "Published"
+    },
+    "manifestation-type": {
+      "audiobook": "Audiobook",
+      "ebook": "E-book",
+      "pod": "Book"
+    }
+  }
+}

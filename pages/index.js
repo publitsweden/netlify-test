@@ -10,16 +10,16 @@ import { Footer } from '../components/Footer'
 const Homepage = () => {
 
   const router = useRouter()
-  const { t } = useTranslation('common')
+  const { t } = useTranslation('translation')
 
   return (
     <>
       <main>
-        <Header heading={t('h1')} title={t('title')} />
+        <Header heading={t('components.country-dropdown.please-select')} title={t('components.country-dropdown.please-select')} />
         <div>
           <Link
             href='/'
-            locale={router.locale === 'en' ? 'de' : 'en'}
+            locale={router.locale === 'en' ? 'sv' : 'en'}
           >
             <button>
               {t('change-locale')}
@@ -41,7 +41,7 @@ const Homepage = () => {
 
 export const getStaticProps = async ({ locale }) => ({
   props: {
-    ...await serverSideTranslations(locale, ['common', 'footer']),
+    ...await serverSideTranslations(locale, ['translation']),
   },
 })
 
